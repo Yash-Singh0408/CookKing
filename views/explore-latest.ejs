@@ -3,7 +3,7 @@
 <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 ">
     <% if(recipe != '') { %>
      <% recipe.forEach(function(recipe, index){ %>
-    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link"  style="width: 280px;">
+    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link">
       <div class="Categori_img category__img--large shadow">
         <img
           src="/uploads/<%= recipe.image %>"

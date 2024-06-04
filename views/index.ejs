@@ -119,10 +119,10 @@
     <a href="/explore-latest" class="ms-auto text-decoration-none">View More</a>
   </div>
 
-  <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center flex-wrap">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <% if(food != '') { %> <% food.latest.forEach(function(recipe, index){ %>
-    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link" style="width: 280px;">
-      <div class="Categori_img category__img--large shadow">
+    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link" >
+      <div class="Categori_img category__img--large shadow ">
         <img
           src="/uploads/<%= recipe.image %>"
           alt="<%= recipe.name %>"
@@ -147,10 +147,10 @@
     <a href="/categories/Thai" class="ms-auto text-decoration-none">View More</a>
   </div>
 
-  <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center flex-wrap">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <% if(food != '') { %>
      <% food.thai.forEach(function(recipe, index){ %>
-    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link"  style="width: 280px;">
+    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link">
       <div class="Categori_img category__img--large shadow">
         <img
           src="/uploads/<%= recipe.image %>"
@@ -175,10 +175,10 @@
     <a href="/categories/Indian" class="ms-auto text-decoration-none">View More</a>
   </div>
 
-  <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center flex-wrap">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <% if(food != '') { %>
      <% food.indian.forEach(function(recipe, index){ %>
-    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link"  style="width: 280px;">
+    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link">
       <div class="Categori_img category__img--large shadow">
         <img
           src="/uploads/<%= recipe.image %>"
@@ -204,10 +204,10 @@
     <a href="/categories/American" class="ms-auto text-decoration-none">View More</a>
   </div>
 
-  <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center flex-wrap">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <% if(food != '') { %>
      <% food.american.forEach(function(recipe, index){ %>
-    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link"  style="width: 280px;">
+    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link">
       <div class="Categori_img category__img--large shadow">
         <img
           src="/uploads/<%= recipe.image %>"
@@ -232,10 +232,10 @@
     <a href="/categories/Indian" class="ms-auto text-decoration-none">View More</a>
   </div>
 
-  <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center flex-wrap">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <% if(food != '') { %>
      <% food.italian.forEach(function(recipe, index){ %>
-    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link"  style="width: 280px;">
+    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link">
       <div class="Categori_img category__img--large shadow">
         <img
           src="/uploads/<%= recipe.image %>"
@@ -261,10 +261,10 @@
     <a href="/categories/Chinese" class="ms-auto text-decoration-none">View More</a>
   </div>
 
-  <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-evenly flex-wrap">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <% if(food != '') { %>
      <% food.chinese.forEach(function(recipe, index){ %>
-    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link"  style="width: 280px;">
+    <a href="/recipe/<%= recipe.id %>" class="col text-center Categori_link">
       <div class="Categori_img category__img--large shadow">
         <img
           src="/uploads/<%= recipe.image %>"
