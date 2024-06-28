@@ -139,6 +139,13 @@ exports.exploreRandom = async (req, res) => {
   }
 };
 
+exports.aboutpage = async (req, res) => {
+  res.render("about", { title: "CooKKing-About" });
+}
+
+exports.contactpage = async (req, res) => {
+  res.render("contact", { title: "CooKKing-Contact" });
+}
 /**
  * Get
  * /Submit Recipe
