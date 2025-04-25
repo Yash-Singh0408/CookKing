@@ -1,0 +1,11 @@
+
+.lead {
+    font-size: 1.2em;
+}
+.img-fluid {
+    border-radius: 8px;
+}
+
+.color{
+    background: linear-gradient(#fffefe, #a2d490);
+}

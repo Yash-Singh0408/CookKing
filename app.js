@@ -8,6 +8,9 @@ const fileUpload = require('express-fileupload');
 const session = require('express-session')
 const cookieParser = require('cookie-parser')
 const flash = require('connect-flash')
+// const bodyParser = require('body-parser');
+// const nodemailer = require('nodemailer');
+// const path = require('path');
 
 //Initialize Port Number
 const PORT = process.env.PORT || 5000;
@@ -30,6 +33,9 @@ app.use(session({
 app.use(flash());
 app.use(fileUpload());
 
+
+// app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(express.static(path.join(__dirname, 'public')));
 
 
 //Layouts
